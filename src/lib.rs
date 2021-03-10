@@ -20,7 +20,8 @@
 //! running programs via `cargo run`. You will have to run them directly via
 //! the target directory after building.
 
-#![feature(optin_builtin_traits)]
+#![feature(auto_traits)]
+#![feature(negative_impls)]
 #[macro_use]
 extern crate lazy_static;
 

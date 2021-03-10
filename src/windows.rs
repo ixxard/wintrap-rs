@@ -140,7 +140,7 @@ pub fn format_error(code: DWORD) -> Result<String, DWORD> {
 
 pub struct Window {
     pub hwnd: HWND,
-    #[used]
+//    #[used]
     window_class: WindowClass,
 }
 
